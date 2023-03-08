@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./asset/img/pexels-aaron-buitenwerf-1293422.jpg" class="d-block w-100 img-carousel" alt="paisaje 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./asset/img/pexels-greg-galas-2043242.jpg" class="d-block w-100" alt="paisaje 2">
+            </div>
+            <div class="carousel-item">
+                <img src="./asset/img/pexels-ian-turnell-709552.jpg" class="d-block w-100" alt="paisaje 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+    </div>
+    <main class="container py-3">
+        <h1>Peliculas de Acción</h1>
+        <nav class="menu">
+            <ol class="flex">
+                <li class="item">
+                    <a class="link-card" href="./index.html">
+                        Inicio
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link-card" href="./views/movies/movie1.html">
+                        Sin tiempo para morir
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link-card" href="./views/movies/movie2.html">
+                            El Escuadrón Suicida
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link-card" href="./views/movies/movie3.html">
+                            El agente invisible
+                    </a>
+                </li>
+            </ol>
+        </nav>
+
+        <hr>
+        <h2>Literaturas Favoritas</h2>
+        <nav class="menu">
+
+            <ol class="flex">
+                <li class="item">
+                    <a class="link-card" href="#odisea">
+                        La Odisea
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link-card" href="#romeo">
+                        Romeo y Julieta
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link-card" href="#comedia">
+                            La Divina Comedia
+                        </a>
+                </li>
+            </ol>
+        </nav>
+
+        <article class="card" id="odisea">
+            <header class="center header-card">
+                <h3>La Odisea</h3>
+            </header>
+            <section class="body-card">
+                <div class="center">
+                    <img class="img-card" src="./asset/img/odisea.jpg" alt="portada">
+                </div>
+                <h4 class="center">Description</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ea exercitationem atque molestiae nesciunt. Exercitationem cumque ea possimus modi, doloribus quisquam debitis vitae nemo id aut blanditiis laborum eaque maxime?
+                </p>
+            </section>
+            <footer>Homero, Siglo VIII a.C.</footer>
+        </article>
+
+        <article class="card" id="romeo">
+            <header class="center header-card">
+                <h3>Romeo y Julieta</h3>
+            </header>
+            <section class="body-card">
+                <div class="center">
+                    <img class="img-card" src="./asset/img/romeo-and-juliet.jpg" alt="portada">
+                </div>
+                <h4 class="center">Description</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ea exercitationem atque molestiae nesciunt. Exercitationem cumque ea possimus modi, doloribus quisquam debitis vitae nemo id aut blanditiis laborum eaque maxime?
+                </p>
+            </section>
+            <footer>William Shakespeare, 1597.</footer>
+        </article>
+
+        <article class="card" id="comedia">
+            <header class="center header-card">
+                <h3>La Divina Comedia</h3>
+            </header>
+            <section class="body-card">
+                <div class="center">
+                    <img class="img-card" src="./asset/img/divina.jpg" alt="portada">
+                </div>
+                <h4 class="center"></h4> Description
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ea exercitationem atque molestiae nesciunt. Exercitationem cumque ea possimus modi, doloribus quisquam debitis vitae nemo id aut blanditiis laborum eaque maxime?
+                </p>
+            </section>
+            <footer>Dante Alighieri, 1308-1320.</footer>
+        </article>
+
+        <hr>
+        <section>
+            <h3 class="center">Botones</h3>
+            <div class="flex col">
+                <a class="btn btn-red" href="./views/tabla.html">Ver Tablas</a>
+                <a class="btn btn-red mt" href="mailto:anayagerardo273@gmail.com">Enviar Correo</a>
+                <a class="btn btn-green mt" href="./asset/pdf/_Relaciones trigonometricas.pdf">Ver PDF</a>
+                <a class="btn btn-blue mt" href="./asset/zip/_Relaciones trigonometricas.zip">Descargar ZIP</a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

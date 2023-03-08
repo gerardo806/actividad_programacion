@@ -1,0 +1,118 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.menu {
+    background-color: #E6E6FA;
+}
+
+.card {
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    border: medium solid #9966CC;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.header-card {
+    background-color: #D8BFD8;
+}
+
+.body-card {
+    background-color: #E6E6FA;
+    padding: 5px;
+}
+
+.card,
+.header-card,
+.body-card {
+    border-radius: 10px;
+}
+
+.item {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.link-card {
+    text-decoration: none;
+}
+
+.img-card {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.img-carousel {
+    height: 300px;
+}
+
+.footer-card {
+    margin-top: 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt {
+    margin-top: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    border: thin solid;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 17px;
+}
+
+.btn-red {
+    background-color: #FF5733;
+    border: thin solid #FF5733;
+    color: #fff;
+}
+
+.btn-green {
+    background-color: #33FF57;
+    border: thin solid #33FF57;
+}
+
+.btn-blue {
+    background-color: #33FFBD;
+    border: thin solid #33FFBD;
+}
+
+.btn-blue,
+.btn-green {
+    color: #333;
+}
+
+.btn-green:hover {
+    background-color: #099C09;
+}
+
+.btn-blue:hover {
+    background-color: #0C7EEF;
+}
+
+.btn-red:hover {
+    background-color: #CB3B07;
+}
+
+.btn-blue:hover,
+.btn-green:hover {
+    color: #fff;
+}
